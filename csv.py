@@ -1,5 +1,6 @@
 # Generate CSV Upload for Appointments
 import pandas as pd
+import numpy as np
 
 def create_sch_df():
   sch_columns = ['ApptId',
